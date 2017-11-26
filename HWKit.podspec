@@ -32,7 +32,7 @@ s.ios.deployment_target = '8.0'
 
 # s.source_files = 'HWKit/Classes/**/*'
 s.subspec 'HWKit' do |hk|
-    hk.source_files = 'HWKit/Classes/**/*'
+    hk.source_files = 'HWKit/Classes/HWKit/**/*'
 end
 
 s.subspec 'JMCRouter' do |jr|

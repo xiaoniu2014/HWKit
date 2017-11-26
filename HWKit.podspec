@@ -30,10 +30,7 @@ s.social_media_url = 'https://twitter.com/hongw_666'
 # s.requires_arc = true
 s.ios.deployment_target = '8.0'
 
-# s.source_files = 'HWKit/Classes/**/*'
-s.subspec 'HWKit' do |hk|
-    hk.source_files = 'HWKit/Classes/HWKit/**/*'
-end
+s.source_files = 'HWKit/Classes/**/*'
 
 s.subspec 'JMCRouter' do |jr|
     jr.source_files = 'HWKit/Classes/JMCRouter/**/*'
